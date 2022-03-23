@@ -1,0 +1,73 @@
+* {
+    font-family: Roboto, Georgia;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+
+}
+
+nav { 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#nav-content {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    flex: 1;
+    align-items:center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0 200px;
+}
+
+#bar-header {
+    display: flex;
+    flex: 1;
+}
+
+#bar-list {
+    display: flex;
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav p,
+nav ul {
+    font-size: 18px;
+    font: #e5e7eb
+}
+
+.nav-content {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 200px;
+    flex: 1;
+    align-items: center;
+}
+
+.roses-img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
