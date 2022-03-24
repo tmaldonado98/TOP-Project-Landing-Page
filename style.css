@@ -2,6 +2,10 @@
     font-family: Roboto, Georgia;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     background-color: #1F2937;
@@ -57,20 +61,32 @@ nav ul {
     font: #e5e7eb;
 }
 
-nav section {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-left: 220px;
+#nav-content-h1 {
+    font-size: 48px; 
+    font-weight: extra-bold; 
+    font: #f9faf8;
+    width: 100%;
+    
 }
 
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 220px;
+    margin-bottom: 200px;
+}
 
+#nav-section-div {
+    display: flex;
+    flex: 1 1 0%;
+}
 
 .roses-img {
     display: flex;
-    height: 100px;
-    width: 100px;
+    flex-shrink: 0;
+    width: 100%;
 }
 
