@@ -54,16 +54,19 @@ a {
 nav p,
 nav ul {
     font-size: 18px;
-    font: #e5e7eb
+    font: #e5e7eb;
 }
 
-.nav-content {
+nav section {
     display: flex;
-    margin-top: 200px;
-    margin-left: 200px;
+    flex-direction: column;
     flex: 1;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 220px;
 }
+
+
 
 .roses-img {
     display: flex;
