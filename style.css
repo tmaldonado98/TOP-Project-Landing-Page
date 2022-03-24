@@ -55,6 +55,10 @@ a {
     color: white;
 }
 
+button {
+    background-color: #3882f6;
+}
+
 nav p,
 nav ul {
     font-size: 18px;
@@ -65,7 +69,7 @@ nav ul {
     font-size: 48px; 
     font-weight: extra-bold; 
     font: #f9faf8;
-    width: 100%;
+    width: 75%;
     
 }
 
@@ -89,4 +93,40 @@ nav ul {
     flex-shrink: 0;
     width: 100%;
 }
+
+
+main {
+    background-color: white;   
+}
+
+main section {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#maincontentdiv {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#maincontenth2 {
+    display: flex;
+    justify-content: center;
+}
+
+.maincontentdivimgp {
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontentdivimgp p {
+    text-align: center;
+}
+
+
 
