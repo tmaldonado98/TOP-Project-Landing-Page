@@ -128,5 +128,28 @@ main section {
     text-align: center;
 }
 
+.quote-section {
+    background-color: #e5e7eb;
+    height: 600px;
 
+}
 
+.quote-section-text {
+    text-align: center;    
+    margin: 25px auto 25px auto;
+    width: min-content;
+}
+
+.quote {
+    font: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    margin-top: 5em;
+
+}
+
+.author {
+    font-weight: bold;
+    width: fit-content;
+    margin-left: 69.5%;
+}
